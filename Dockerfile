@@ -16,7 +16,7 @@ RUN /usr/local/bin/install-plugins.sh greenballs
 RUN /usr/local/bin/install-plugins.sh simple-theme-plugin
 
 # Scaling
-RUN /usr/local/bin/install-plugins.sh kubernetes
+RUN /usr/local/bin/install-plugins.sh kubernetes kubernetes-credentials
 
 #pipeline 
 RUN /usr/local/bin/install-plugins.sh pipeline-build-step build-pipeline-plugin pipeline-github pipeline-editor pipeline-stage-view
