@@ -19,7 +19,7 @@ RUN /usr/local/bin/install-plugins.sh simple-theme-plugin
 RUN /usr/local/bin/install-plugins.sh kubernetes
 
 #pipeline 
-RUN /usr/local/bin/install-plugins.sh pipeline-build-step
+RUN /usr/local/bin/install-plugins.sh pipeline-build-step build-pipeline-plugin pipeline-github pipeline-editor pipeline-stage-view
 
 # install Maven
 USER root
